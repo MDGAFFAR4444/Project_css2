@@ -1,0 +1,120 @@
+* {
+    width: 0;
+    height: 0;
+    box-sizing: border-box;
+    
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+#left {
+    width: 50%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1542393545-10f5cde2c810?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODh8fGxhcHRvcHxlbnwwfHwwfHx8MA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+
+#right {
+    width: 50%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1501676491272-7bbd3e71f7e1?q=80&w=2038&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+
+#overlay1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.718);
+}
+
+#center1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    width: 200px;
+    height: 100px;
+}
+
+#center1 h1 {
+    font-size: 50px;
+    font-weight: 100;
+    display: inline;
+}
+
+#center1 p {
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: inline;
+}
+
+#center1 button {
+    width: 150px;
+    height: 45px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+#center1 button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+#overlay2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(246, 240, 240, 0.618);
+}
+
+#center2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 200px;
+    height: 100px;
+}
+
+#center2 h1 {
+    font-size: 50px;
+    font-weight: 100;
+    display: inline;
+}
+
+#center2 p {
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: inline;
+}
+
+#center2 button {
+    width: 150px;
+    height: 45px;
+    background-color: transparent;
+    color: #000;
+    border: 1px solid #000;
+}
+
+#center2 button:hover {
+    background-color: #000;
+    color: #fff;
+}
